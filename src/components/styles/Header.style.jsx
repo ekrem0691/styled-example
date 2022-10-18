@@ -9,16 +9,13 @@ export const Logo = styled.img`
   width: 300px;
 `;
 
-
 export const Nav = styled.nav`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: ${({ theme }) => theme.responsive}) {
+    flex-direction: column;
+  } ;
 `;
-
-
-
-
 
 export default StyledHeader;

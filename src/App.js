@@ -10,6 +10,8 @@ const theme = {
     footer: "#8A1C4A",
   },
 
+  responsive: "768px"
+
 };
 
 
