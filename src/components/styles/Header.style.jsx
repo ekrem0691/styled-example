@@ -16,6 +16,11 @@ export const Nav = styled.nav`
   @media (max-width: ${({ theme }) => theme.responsive}) {
     flex-direction: column;
   } ;
-`;
+  `;
+
+
+  export const Image = styled.img`
+    width: 400px;
+  `;
 
 export default StyledHeader;
